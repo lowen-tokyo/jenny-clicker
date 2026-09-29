@@ -4,7 +4,9 @@ from pathlib import Path
 
 
 def resource_path(filename: str) -> Path:
-    """Find a bundled image whether run as a script or a packaged app."""
+    """
+    Поиск файла 
+    """
     if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
         base_dir = Path(sys._MEIPASS)
     else:
