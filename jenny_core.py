@@ -12,6 +12,10 @@ window.title("JennyClick")
 
 window.geometry("400x350")
 
+bg_img = tk.PhotoImage(file="bg1.png")
+bg_label = tk.Label(window, image=bg_img)
+bg_label.place(x=0, y=0, relwidth=1, relheight=1)
+
 label = tk.Label(window, text="Клики: 0", font=("Arial", 20))
 label.pack(pady=20)
 
