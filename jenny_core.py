@@ -18,7 +18,8 @@ clicks = 0
 def click():
     global clicks
     clicks += 1
-    label.config(text=f"Клики: {clicks}")
+    label.config(text=f"Клики: {clicks}", fg="green" if clicks == 67 else "black")
+
 
 window = tk.Tk()
 window.title("JennyClick")
