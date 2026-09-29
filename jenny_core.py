@@ -12,7 +12,7 @@ window.title("JennyClick")
 
 window.geometry("400x350")
 
-label = tk.Label(window, text="Клики: 0", font=("Arial", 20))
+label = tk.Label(window, text="Клики: 0", font=("Roboto", 20))
 label.pack(pady=20)
 
 
