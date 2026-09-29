@@ -16,7 +16,7 @@ label = tk.Label(window, text="Клики: 0", font=("Arial", 20))
 label.pack(pady=20)
 
 
-img = tk.PhotoImage(file="2026-09-29 18.02.49.png")
+img = tk.PhotoImage(file="rezev2.png")
 
 
 button = tk.Button(
